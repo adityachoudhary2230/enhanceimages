@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import ImagePreview from './imagepreview'
-import ImageUpload from './imageupload'
+import ImagePreview from './ImagePreview'
+import ImageUpload from './ImageUpload'
 import { EnhancedImageAPI } from '../utils/EnhancedImageAPI'
 
 function home() {

@@ -8,7 +8,7 @@ function ImagePreview(props) {
          
       {props.upload ? (
         <img src={props.upload} alt="" className='w-full h-full object-cover'/> ):(
-        <div className='flex items-center justify-center h-50 bg-gray-200'>No selected image
+        <div className='flex items-center justify-center h-50 text-gray-700 bg-gray-200'>No selected image
 
         </div>
       )
@@ -36,7 +36,7 @@ function ImagePreview(props) {
       { props.loading ? (
        <Loading />
       ):(
-          <div className='flex items-center justify-center h-full bg-gray-200'>No Enhanced image
+          <div className='flex items-center justify-center h-full text-gray-700 bg-gray-200'>No Enhanced image
 
           </div>
          
